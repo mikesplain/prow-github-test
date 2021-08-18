@@ -26,4 +26,4 @@ jobs:
             /cc 
             /uncc'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
-       - run: echo "${github.actor}"
+      - run: echo "${github.actor}"
