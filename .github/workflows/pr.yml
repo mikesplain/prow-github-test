@@ -1,6 +1,12 @@
 name: "Run Jobs on PR"
 on: 
   pull_request:
+    types:
+    - opened
+    - synchronize
+    - reopened
+    - labeled
+    - edited
   check_suite:
     types:
       - completed
