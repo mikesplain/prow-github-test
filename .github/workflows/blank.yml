@@ -27,4 +27,4 @@ jobs:
             /uncc'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - run: echo Yep!
-        if: ${{ github.actor == 'mike.splain@gmail.com' }}
+        if: ${{ github.actor == 'mikesplain' }}
